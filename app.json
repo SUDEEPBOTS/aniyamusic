@@ -1,0 +1,67 @@
+{
+  "name": "AniyaMusic",
+  "description": "High-Performance Telegram Voice Chat Music & Video Streaming Engine powered by Pyrogram v2, PyTgCalls, MongoDB, and multi-platform resolvers.",
+  "logo": "https://raw.githubusercontent.com/SUDEEPBOTS/aniyamusic/main/assets/banner.png",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AniyaMusic",
+    "SUDEEPBOTS",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram",
+    "pytgcalls"
+  ],
+  "repository": "https://github.com/SUDEEPBOTS/aniyamusic",
+  "website": "https://github.com/SUDEEPBOTS/aniyamusic",
+  "success_url": "https://t.me/heartstealer_x",
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID obtained from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash obtained from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB Atlas connection string URI (e.g. mongodb+srv://...)",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram User ID of the primary bot administrator/owner",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram v2 String Session for assistant client account",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Telegram Supergroup Log ID (bot must be admin with full permissions)",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku account API Key for automatic restarts/maintenance",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku Application Name",
+      "value": "",
+      "required": false
+    }
+  },
+  "stack": "container"
+}
